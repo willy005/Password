@@ -1,7 +1,7 @@
 # Password Locker
     By wilfred Mutura!
 
- <!-- #   Getting Started
+ #   Getting Started
 These Simple Instructions will get you a copy of the application running on your terminal.
 
 You need to get into the Project Repository.
@@ -10,7 +10,7 @@ Clone the project.
 
 get into project folder (cd into project).
 
-If you have all the Pre-requisites you can run the application. -->
+If you have all the Pre-requisites you can run the application.
 
 <!-- #   What you need to run the program
 You need to have installed python 3.6 in your machine
@@ -22,9 +22,9 @@ From there  follow the simple instruction and you will get it all done. -->
 The project has been built with:
 -python .3.6 -->
 
-#   Support Details
+<!-- #   Support Details
 Phone: 0707148822 <br>
-Email: nillyw31@gmail.com
-
+Email: nillyw31@gmail.com -->
+<!-- 
 #   License
-This project is licensed under the MIT License - see the LICENSE file for details 
+This project is licensed under the MIT License - see the LICENSE file for details  -->
