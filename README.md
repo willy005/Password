@@ -1,7 +1,7 @@
 # Password Locker
     By wilfred Mutura!
 
-#   Getting Started
+<!-- #   Getting Started
 These Simple Instructions will get you a copy of the application running on your terminal.
 
 You need to get into the Project Repository.
@@ -27,4 +27,4 @@ Phone: 0707148822 <br>
 Email: nillyw31@gmail.com
 
 #   License
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the MIT License - see the LICENSE file for details -->
