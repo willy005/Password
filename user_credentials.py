@@ -62,40 +62,40 @@
 # 		# global users_list
 # 		Credential.credentials_list.append(self)
 	
-# 	def generate_password(size=8, char=string.ascii_uppercase+string.ascii_lowercase+string.digits):
-# 		'''
-# 		Function to generate an 8 character password for a credential
-# 		'''
-# 		gen_pass=''.join(random.choice(char) for _ in range(size))
-# 		return gen_pass
+	def generate_password(size=8, char=string.ascii_uppercase+string.ascii_lowercase+string.digits):
+		'''
+		Function to generate an 8 character password for a credential
+		'''
+		gen_pass=''.join(random.choice(char) for _ in range(size))
+		return gen_pass
 
-# 	@classmethod
-# 	def display_credentials(cls,user_name):
-# 		'''
-# 		Class method to display the list of credentials saved
-# 		'''
-# 		user_credentials_list = []
-# 		for credential in cls.credentials_list:
-# 			if credential.user_name == user_name:
-# 				user_credentials_list.append(credential)
-# 		return user_credentials_list
+	@classmethod
+	def display_credentials(cls,user_name):
+		'''
+		Class method to display the list of credentials saved
+		'''
+		user_credentials_list = []
+		for credential in cls.credentials_list:
+			if credential.user_name == user_name:
+				user_credentials_list.append(credential)
+		return user_credentials_list
 				
 
 	
-# 	@classmethod
-# 	def find_by_site_name(cls, site_name):
-# 		'''
-# 		Method that takes in a site_name and returns a credential that matches that site_name.
-# 		'''
-# 		for credential in cls.credentials_list:
-# 			if credential.site_name == site_name:
-# 				return credential
+	@classmethod
+	def find_by_site_name(cls, site_name):
+		'''
+		Method that takes in a site_name and returns a credential that matches that site_name.
+		'''
+		for credential in cls.credentials_list:
+			if credential.site_name == site_name:
+				return credential
 
-# 	@classmethod
-# 	def copy_credential(cls,site_name):
-# 		'''
-# 		Class method that copies a credential's info after the credential's site name is entered
-# 		'''
-# 		find_credential = Credential.find_by_site_name(site_name)
-# 		return pyperclip.copy(find_credential.password)
+	@classmethod
+	def copy_credential(cls,site_name):
+		'''
+		Class method that copies a credential's info after the credential's site name is entered
+		'''
+		find_credential = Credential.find_by_site_name(site_name)
+		return pyperclip.copy(find_credential.password)
 
