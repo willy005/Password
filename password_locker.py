@@ -48,23 +48,23 @@ def main():
 		if short_code == '3':
 			break
 
-		elif short_code == '1':
-			# print("-"*60)
-			# print(' ')
-			print('To create a new account:')
-			first_name = input('Enter your first name - ').strip()
-			last_name = input('Enter your last name - ').strip()
-			password = input('Enter your password - ').strip()
-			save_user(create_user(first_name,last_name,password))
-			print(" ")
-			print(f'New Account Created for: {first_name} {last_name} using password: {password}')
-		elif short_code == '2':
-			print("-"*60)
-			print(' ')
-			print('To login, enter your account details:')
-			user_name = input('Enter your first name - ').strip()
-			password = str(input('Enter your password - '))
-			user_exists = verify_user(user_name,password)
+		# elif short_code == '1':
+		# 	# print("-"*60)
+		# 	# print(' ')
+		# 	print('To create a new account:')
+		# 	first_name = input('Enter your first name - ').strip()
+		# 	last_name = input('Enter your last name - ').strip()
+		# 	password = input('Enter your password - ').strip()
+		# 	save_user(create_user(first_name,last_name,password))
+		# 	print(" ")
+		# 	print(f'New Account Created for: {first_name} {last_name} using password: {password}')
+		# elif short_code == '2':
+		# 	print("-"*60)
+		# 	print(' ')
+		# 	print('To login, enter your account details:')
+		# 	user_name = input('Enter your first name - ').strip()
+		# 	password = str(input('Enter your password - '))
+		# 	user_exists = verify_user(user_name,password)
 			if user_exists == user_name:
 				print(" ")
 				print(f'Welcome {user_name}. Please choose an option to continue.')
