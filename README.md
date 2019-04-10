@@ -12,11 +12,11 @@ get into project folder (cd into project).
 
 If you have all the Pre-requisites you can run the application.
 
-<!-- #   What you need to run the program
+#   What you need to run the program
 You need to have installed python 3.6 in your machine
     Steps to follow:
 Run the command (python3.6 password_locker.py).
-From there  follow the simple instruction and you will get it all done. -->
+From there  follow the simple instruction and you will get it all done.
 
 <!-- #   Built with
 The project has been built with:
