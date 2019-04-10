@@ -75,26 +75,26 @@ def main():
 					short_code = input('Enter a choice: ').lower().strip()
 					print("-"*60)
 
-					# if short_code == '4':
-					# 	print(" ")
-					# 	print(f'Goodbye {user_name}')
-					# 	break
+					if short_code == '4':
+						print(" ")
+						print(f'Goodbye {user_name}')
+						break
 
-					# elif short_code == '1':
-					# 	print(' ')
-					# 	print('Enter your credential details:')
-					# 	site_name = input('Enter the site\'s name- ').strip()
-					# 	account_name = input('Enter your account\'s name - ').strip()
-					# 	while True:
-					# 		print(' ')
-					# 		print("-"*60)
-					# 		print('Please choose an option for entering a password: \n 1-enter existing password \n 2-generate a password \n 3-exit')
-					# 		psw_choice = input('Enter an option: ').lower().strip()
-					# 		print("-"*60)
-					# 		if psw_choice == '1':
-					# 			print(" ")
-					# 			password = input('Enter your password: ').strip()
-					# 			break
+					elif short_code == '1':
+						print(' ')
+						print('Enter your credential details:')
+						site_name = input('Enter the site\'s name- ').strip()
+						account_name = input('Enter your account\'s name - ').strip()
+						while True:
+							print(' ')
+							print("-"*60)
+							print('Please choose an option for entering a password: \n 1-enter existing password \n 2-generate a password \n 3-exit')
+							psw_choice = input('Enter an option: ').lower().strip()
+							print("-"*60)
+							if psw_choice == '1':
+								print(" ")
+								password = input('Enter your password: ').strip()
+								break
 							elif psw_choice == '2':
 								password = generate_password()
 								break
