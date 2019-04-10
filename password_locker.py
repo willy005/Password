@@ -41,16 +41,16 @@ def main():
 	print(' ')
 	print('Hello! Welcome to Password Locker.')
 	while True:
-		print(' ')
-		print("-"*60)
+		# print(' ')
+		# print("-"*60)
 		print('Use these codes to navigate: \n 1-Create an Account \n 2-Log In \n 3-Exit')
 		short_code = input('Enter a choice: ').lower().strip()
 		if short_code == '3':
 			break
 
 		elif short_code == '1':
-			print("-"*60)
-			print(' ')
+			# print("-"*60)
+			# print(' ')
 			print('To create a new account:')
 			first_name = input('Enter your first name - ').strip()
 			last_name = input('Enter your last name - ').strip()
@@ -74,10 +74,12 @@ def main():
 					print('Navigation codes: \n 1-Create a Credential \n 2-Display Credentials \n 3-Copy Password \n 4-Exit')
 					short_code = input('Enter a choice: ').lower().strip()
 					print("-"*60)
+
 					if short_code == '4':
 						print(" ")
 						print(f'Goodbye {user_name}')
 						break
+
 					elif short_code == '1':
 						print(' ')
 						print('Enter your credential details:')
