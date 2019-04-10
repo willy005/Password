@@ -18,13 +18,13 @@ You need to have installed python 3.6 in your machine
 Run the command (python3.6 password_locker.py).
 From there  follow the simple instruction and you will get it all done.
 
-<!-- #   Built with
+#   Built with
 The project has been built with:
--python .3.6 -->
+-python .3.6
 
-<!-- #   Support Details
+ #   Support Details
 Phone: 0707148822 <br>
-Email: nillyw31@gmail.com -->
-<!-- 
-#   License
-This project is licensed under the MIT License - see the LICENSE file for details  -->
+Email: nillyw31@gmail.com 
+
+<!-- #   License
+This project is licensed under the MIT License - see the LICENSE file for details   -->
