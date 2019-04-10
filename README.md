@@ -23,7 +23,7 @@ The project has been built with:
 -python .3.6
 
 #   Support Details
-Phone: 0707148822
+Phone: 0707148822 <br>
 Email: nillyw31@gmail.com
 
 #   License
