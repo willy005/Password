@@ -6,7 +6,7 @@ These Simple Instructions will get you a copy of the application running on your
 
 You need to get into the Project Repository.
     link : https://github.com/willy005
-Clone the project.
+Clone the project password.
 
 get into project folder (cd into project).
 
